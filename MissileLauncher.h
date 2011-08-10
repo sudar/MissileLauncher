@@ -36,6 +36,6 @@ private:
 
     // variables
     byte addr;
-}
+};
 
 #endif
