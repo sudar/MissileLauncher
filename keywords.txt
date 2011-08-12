@@ -1,0 +1,37 @@
+#################################################
+# Syntax Coloring Map For MissileLauncher Arduino Library
+# http://sudarmuthu.com/arduino/missilelauncher
+#################################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MissileLauncher	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+# MissileLauncher Functions
+
+moveUp KEYWORD2
+moveDown KEYWORD2
+moveLeft KEYWORD2
+moveRight KEYWORD2
+fire KEYWORD2
+stop KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+#MissileLauncher states
+
+DOWN  LITERAL1
+UP    LITERAL1
+LEFT  LITERAL1
+RIGHT LITERAL1
+FIRE  LITERAL1
+STOP  LITERAL1
