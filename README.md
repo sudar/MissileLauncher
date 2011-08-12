@@ -17,6 +17,8 @@ The library has an example sketche which explains how to control the Missile Lau
 
 *   MissileLauncher.pde - Shows the normal way of using the library
 
+If you want to control the Missile Launcher from your desktop, then you can use the missile-launcher.py script found under the /tools directory
+
 ## Explanation
 
 Explanation/documentation of the library can be found in its [homepage](http://sudarmuthu.com/arduino/missilelauncher)
