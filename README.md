@@ -13,20 +13,26 @@ The library supports the following operations
 
 ## Examples
 
-The library has an example sketch which explains how to control the Missile Launcher
+The library has a couple of example sketches that explains how to control the Missile Launcher
 
-*   MissileLauncher.pde - Shows the normal way of using the library
+*   MissileLauncher.ino - Shows the normal way of using the library
+*   MissileLauncherFromSerial.ino - Shows how you can read the command from Serial monitor and control the device
 
 If you want to control the Missile Launcher from your desktop, then you can use the missile-launcher.py script found under the /tools directory
 
+## Video
+
+I have also uploaded a [video in youtube](http://youtu.be/hxFvpzAR4OI) which shows how you can control the device from Arduino.
+
 ## Dependency
-This library requires the [USB Host Shield library](https://github.com/felis/USB_Host_Shield_2.0), without which this can't work.
+
+This library requires the [USB Host Shield library](https://github.com/felis/USB_Host_Shield_2.0), without which it can't work.
 
 ## Setup
 
 Stack the USB Host shield on top of Arduino and connect the USB Missile Launcher in the USB slot of the shield. 
 
-More detailed documentation of the library can be found in its [homepage](http://sudarmuthu.com/arduino/missilelauncher)
+More detailed documentation of the library can be found in its [homepage](http://hardwarefun.com/projects/missile-launcher)
 
 ## License
 
@@ -38,4 +44,4 @@ You can also find other ways to [make me happy](http://sudarmuthu.com/if-you-wan
 
 ##Support 
 
-More details about this project and the support for this project can be found at its [homepage](http://sudarmuthu.com/arduino/missilelauncher).
+More details about this project and the support for this project can be found at its [homepage](http://hardwarefun.com/projects/missile-launcher).

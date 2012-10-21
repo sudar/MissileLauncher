@@ -1,12 +1,14 @@
 /**
-    MissileLauncher - Arduino library to work with USB MissileLauncher
+    MissileLauncher - A simple sketch that explains how to MissileLauncher Arduino library
 
-    http://sudarmuthu.com/arduino/missilelauncher
+    Requires 
+    - v2.0 of USB Host Shield Library available at https://github.com/felis/USB_Host_Shield_2.0
+    - MissileLauncher Arduino Library available at http://hardwarefun.com/projects/missile-launcher
 
-    Requires v2.0 of USB Host Shield Library available at https://github.com/felis/USB_Host_Shield_2.0
-
-   Copyright 2011  Sudar Muthu  (email : sudar@sudarmuthu.com)
-/*
+    Stack the USB Host shield on top of Arduino and connect the USB Missile Launcher in the USB slot of the shield.
+*/
+   
+/* Copyright 2011  Sudar Muthu  (email : sudar@sudarmuthu.com)
  * ----------------------------------------------------------------------------
  * "THE BEER-WARE LICENSE" (Revision 42):
  * <sudar@sudarmuthu.com> wrote this file. As long as you retain this notice you
@@ -21,7 +23,7 @@
 MissileLauncher ml;
 void setup() {
 
-    Serial.begin( 115200 );
+    Serial.begin(115200);
     Serial.println("Start");
 
     if (ml.Init() == -1) {
