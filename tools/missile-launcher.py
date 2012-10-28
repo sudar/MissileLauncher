@@ -1,7 +1,7 @@
 '''
     Code to control USB Missile Lanuncher from desktop
 
-    http://sudarmuthu.com/arduino/missilelauncher
+    http://hardwarefun.com/projects/missile-launcher
 
     Requires the latest version of pyusb
    

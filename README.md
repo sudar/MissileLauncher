@@ -20,6 +20,8 @@ The library has a couple of example sketches that explains how to control the Mi
 
 If you want to control the Missile Launcher from your desktop, then you can use the missile-launcher.py script found under the /tools directory
 
+Also [checkout the article](http://hardwarefun.com/tutorials/controlling-usb-missile-launchers-using-arduino), that I have written about the library.
+
 ## Video
 
 I have also uploaded a [video in youtube](http://youtu.be/hxFvpzAR4OI) which shows how you can control the device from Arduino.
