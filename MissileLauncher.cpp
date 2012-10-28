@@ -1,12 +1,17 @@
 /**
-    MissileLauncher - Arduino library to work with USB MissileLauncher
+ * @mainpage Missile Launcher Arduino Library
+ *
+ * An Arduino library that allows you to control a USB MissileLauncher. 
+ *
+ * http://hardwarefun.com/projects/missile-launcher
+ *
+ * @note Requires v2.0 of USB Host Shield Library available at https://github.com/felis/USB_Host_Shield_2.0
+ * @author Sudar <http://sudarmuthu.com> <http://hardwarefun.com>
+ * @version 0.1
+ */
 
-    http://sudarmuthu.com/arduino/missilelauncher
-
-    Requires v2.0 of USB Host Shield Library available at https://github.com/felis/USB_Host_Shield_2.0
-
-   Copyright 2011  Sudar Muthu  (email : sudar@sudarmuthu.com)
 /*
+ * Copyright 2011  Sudar Muthu  (http://sudarmuthu.com)
  * ----------------------------------------------------------------------------
  * "THE BEER-WARE LICENSE" (Revision 42):
  * <sudar@sudarmuthu.com> wrote this file. As long as you retain this notice you
