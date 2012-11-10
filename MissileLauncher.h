@@ -44,11 +44,12 @@ enum MissileLauncherActions {
  */
 class MissileLauncher : public USB {
 
+public:
+
     /**
      * Default constructor
      */
     MissileLauncher();
-public:
 
     /**
      * Rotate upwards
